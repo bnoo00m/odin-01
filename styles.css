@@ -94,6 +94,12 @@ section{
             font-size: 1em;
             border: 1px solid #E5E7EB;
             border-radius: 5px;
+            &:focus{
+                outline: 1px solid blue;
+            }
+            &:invalid{
+                border-color: red;
+            }
         }
     }
 }
